@@ -1,0 +1,179 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/pexels-nerfee-mirandilla-3186654-1024x780.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 300px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-family: "Patua One";
+  margin: 124px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 247px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 189px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 142px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 89px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 110px;
+}.u-section-3 .u-sheet-1 {
+  min-height: 500px;
+}.u-section-4 .u-sheet-1 {
+  min-height: 500px;
+} .u-section-5 {
+  min-height: 655px;
+}
+
+.u-section-5 .u-layout-wrap-1 {
+  pointer-events: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-5 .u-layout-cell-1 {
+  min-height: 655px;
+  pointer-events: auto;
+}
+
+.u-section-5 .u-container-layout-1 {
+  padding: 0 60px;
+}
+
+.u-section-5 .u-group-1 {
+  min-height: 458px;
+  margin: 90px auto 0;
+}
+
+.u-section-5 .u-icon-1 {
+  height: 200px;
+  width: 200px;
+  background-image: none;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.u-section-5 .u-text-1 {
+  font-family: "Patua One";
+  text-align: left;
+  margin: 0 auto 0 152px;
+}
+
+.u-section-5 .u-text-2 {
+  text-align: left;
+  margin: 19px 0 0;
+}
+
+.u-section-5 .u-image-1 {
+  min-height: 655px;
+  pointer-events: auto;
+  background-image: url("images/pexels-tembela-bohle-1089930-683x1024.jpg");
+  background-position: 18.92% 36.5%;
+  background-size: 115%;
+}
+
+.u-section-5 .u-container-layout-3 {
+  padding: 30px 60px;
+}
+
+@media (max-width: 1199px) {
+   .u-section-5 {
+    min-height: 540px;
+  }
+
+  .u-section-5 .u-layout-cell-1 {
+    min-height: 540px;
+  }
+
+  .u-section-5 .u-group-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-5 .u-text-1 {
+    margin-left: 118px;
+  }
+
+  .u-section-5 .u-image-1 {
+    background-position: 50% 50%;
+    min-height: 540px;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-5 {
+    min-height: 414px;
+  }
+
+  .u-section-5 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-5 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-5 .u-text-1 {
+    margin-left: 101px;
+  }
+
+  .u-section-5 .u-image-1 {
+    min-height: 414px;
+  }
+
+  .u-section-5 .u-container-layout-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-5 {
+    min-height: 721px;
+  }
+
+  .u-section-5 .u-container-layout-1 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .u-section-5 .u-image-1 {
+    min-height: 621px;
+  }
+
+  .u-section-5 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-5 {
+    min-height: 491px;
+  }
+
+  .u-section-5 .u-image-1 {
+    min-height: 391px;
+  }
+}
