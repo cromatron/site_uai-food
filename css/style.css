@@ -1,3 +1,47 @@
 .logo_nav{
     width: 50px;
 }
+
+.uai_stand{
+    padding: 25px 50px;
+    text-align: justify;
+}
+
+.uai_page{
+    width: 100%;
+}
+
+.uai_menu{
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(120, 120, 120, 0.2);
+    border-bottom: hotpink;
+    border-width: 1px;
+    border-style: solid ;
+}
+
+.uai_nav{
+    padding: 20px 50px 20px 50px;
+}
+
+.uai_banner1{
+    background-color: gray;
+    padding: 80px 50px;
+}
+
+.texto_restaurante{
+    text-align: justify;
+}
+
+/*
+.uai_cardapio{
+
+}
+
+.uai_sobre{
+
+}
+
+.uai_footer{
+
+}
+*/
