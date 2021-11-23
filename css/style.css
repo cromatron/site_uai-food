@@ -21,6 +21,7 @@
 .logo_nav img{
     width: 90px;
     margin: 10px 50px;
+    filter: drop-shadow(1px 5px 2px rgba(0, 0, 0, 0.164))
 }
 
 /* padding padrão */
@@ -36,6 +37,13 @@
 .uai_banner1{
     background-color: gray;
     padding: 80px 50px;
+    background-image: url(../images/pexels-nerfee-mirandilla-3186654-1024x780.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20rem;
+    filter: grayscale(20%);
 }
 
 .uai_nav_cardardapio{
@@ -53,14 +61,15 @@
 .nome_food{ 
     font-family: 'Patua One', cursive;
     color:var(--ucl2);
+    text-align: left;
 }
 
 .preco_food{
     color: rgb(255, 153, 0);
 }
 
-.texto_restaurante, .descri_food{
-    text-align: justify;
+.descri_food{
+    text-align: left;
 }
 
 /* menu seleção de categorias cardápio */
@@ -82,13 +91,48 @@
     transition: 0.5s;
 }
 
+.uai_sobre{
+    background-color:#fff7e9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1.title1{
+    font-family: 'Patua One', cursive;
+    color: #2E261C;
+    font-size: 3em;
+    padding-bottom: 40px;
+}
+
+.texto_restaurante{
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.img_uai{
+    background-image: url(../images/pexels-tembela-bohle-1089930-683x1024.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20rem;
+}
+
+.uai_footer{
+    background-color: rgb(48, 24, 7);
+    padding:50px;
+    color:white;
+    font-weight: bold;
+}
+
 /* Responsivos */
 @media only screen and (max-width: 780px) {
     .logo_nav{
         z-index: 1;
     }
     .logo_nav img{
-        width: 50px;
+        width: 60px;
     }
     
     .uai_nav_cardardapio{
@@ -101,18 +145,9 @@
         font-size: 3rem;
         text-align: center;
     }
-} 
 
-/*
-.uai_cardapio{
-
+    .texto_restaurante{
+        padding-right: inherit;
+        margin-bottom: 30px;
+    }
 }
-
-.uai_sobre{
-
-}
-
-.uai_footer{
-
-}
-*/
