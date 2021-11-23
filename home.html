@@ -5,64 +5,297 @@
     <meta charset="utf-8">
     <meta name="description" content="Cardápio Restaurante UAI FOOD">
     <title>Cardárpio Uai Food</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/bootstrap.css" media="screen">
     <link rel="stylesheet" href="css/style.css" media="screen">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
 
-  <!-- NAVBAR -->
+  
   <div class="uai_page">
-        <div class="sticky-top uai_menu">
-        <header class="uai_nav d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
-          <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-           LOGO <!-- <img src="images/Logo_normal.png" class="logo_nav" alt=""> -->
-          </a>
-          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 link-secondary">Cardápio</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark">Sobre</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark">Local</a></li>
-          </ul>
-        </header>
-    </div>
-
+    
+    <!-- Logo -->
+      <div class="sticky-top logo_nav">
+        <img src="images/Logo_normal_fundo.png" class="" alt="">
+      </div>
+      
     <!-- Hero Banner -->
     <div class="uai_banner1 uai_stand">
       banner
     </div>
 
     <!-- Cardápio -->
-    <div class="uai_cardapio uai_stand">
-      <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-        </li>
-      </ul>
-      <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-          Home TAB<br>
-          mé, cursus quis, vehicula ac nisi. Quem manda na minha terra sou euzis! 
-          Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.
+    <div class="uai_cardapio">
+      <div class="title1 uai_stand">
+        <h1>Cardápio</h1>
+      </div>
+      <div class="sticky-top uai_nav_cardardapio">
+        <ul class="nav nav-pills justify-content-center" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#porcoes" type="button" role="tab" aria-controls="porcoes" aria-selected="true">Porções</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#saladas" type="button" role="tab" aria-controls="saladas" aria-selected="false">Saladas</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pratos-tab" data-bs-toggle="tab" data-bs-target="#pratos" type="button" role="tab" aria-controls="pratos" aria-selected="false">Pratos principais</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#bebida" type="button" role="tab" aria-controls="bebida" aria-selected="false">Bebidas</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="sobremesa-tab" data-bs-toggle="tab" data-bs-target="#sobremesa" type="button" role="tab" aria-controls="sobremesa" aria-selected="false">Sobremesas</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class=" uai_stand tab-content" id="myTabContent">
+        
+        <div class="tab-pane fade show active" id="porcoes" role="tabpanel" aria-labelledby="porcoes-tab">
+          <!-- Porções -->
+            <div class="row row-cols-1 row-cols-md-4 row-cols-lg-6 justify-content-center">
+              
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title nome_food">Pão de alho</h3>
+                  <h6 class="card-title preco_food">R$ 1,23</h6>
+                  <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+                </div>
+              </div>
+
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title nome_food">Card title</h3>
+                  <h6 class="card-title preco_food">R$ 1,23</h6>
+                  <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+                </div>
+              </div>
+
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title nome_food">Card title</h3>
+                  <h6 class="card-title preco_food">R$ 1,23</h6>
+                  <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+                </div>
+              </div>
+
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title nome_food">Card title</h3>
+                  <h6 class="card-title preco_food">R$ 1,23</h6>
+                  <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+                </div>
+              </div>
+
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title nome_food">Card title</h3>
+                  <h6 class="card-title preco_food">R$ 1,23</h6>
+                  <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+                </div>
+              </div>  
+
+            </div>
         </div>
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-          Profile TAB<br>
-          mé, cursus quis, vehicula ac nisi. Quem manda na minha terra sou euzis! 
-          Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.
+        
+        <div class="tab-pane fade" id="saladas" role="tabpanel" aria-labelledby="saladas-tab">
+          <!-- Saladas -->
+          <div class="row row-cols-1 row-cols-md-4 row-cols-lg-6 justify-content-center">
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>  
+            
+          </div>
         </div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-          Contact TAB<br>
-          mé, cursus quis, vehicula ac nisi. Quem manda na minha terra sou euzis! 
-          Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.
+
+        <div class="tab-pane fade" id="pratos" role="tabpanel" aria-labelledby="pratos-tab">
+          <!-- Pratos -->
+          <div class="row row-cols-1 row-cols-md-4 row-cols-lg-6 justify-content-center">
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>  
+            
+          </div>
         </div>
-      </div>        
+
+        <div class="tab-pane fade" id="bebida" role="tabpanel" aria-labelledby="bebida-tab">
+          <!-- Bebidas -->
+          <div class="row row-cols-1 row-cols-md-4 row-cols-lg-6 justify-content-center">
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>  
+            
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="sobremesa" role="tabpanel" aria-labelledby="sobremesa-tab">
+          <!-- Sobremesas -->
+          <div class="row row-cols-1 row-cols-md-4 row-cols-lg-6 justify-content-center">
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title nome_food">Card title</h3>
+                <h6 class="card-title preco_food">R$ 1,23</h6>
+                <p class="card-subtitle mb-2 text-muted descri_food">Card subtitle</p>
+              </div>
+            </div>  
+            
+          </div>
+        </div>
+
+      </div>
     </div>
 
     <!-- About Uai? -->
+    <div class="title1 uai_stand">
+      <h1>O Restaurante</h1>
+    </div>
     <div class="uai_sobre uai_stand">
         <div class="container-full">
             <div class="row">
@@ -83,10 +316,9 @@
             </div> 
         </div>
     </div>
-
   </div>
-
 </body>
+
 <footer>
   <!-- Uai Foots -->
     <div class="uai_footer uai_stand">
@@ -98,6 +330,4 @@
         </footer>
       </div>
 </footer>
-<script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
-<script class="u-script" type="text/javascript" src="js/nicepage.js" defer=""></script>
 </html>
