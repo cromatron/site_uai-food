@@ -47,7 +47,7 @@
 }
 
 .uai_nav_cardardapio{
-    background-color: white;
+    background-color: rgb(204, 204, 204);
     padding: 10px;
     z-index: 1; /* coloca atras do logo */
 }
@@ -70,6 +70,10 @@
 
 .descri_food{
     text-align: left;
+}
+
+.uai_nav_cardardapio{
+    background-color: #FFF;
 }
 
 /* menu seleção de categorias cardápio */
@@ -117,6 +121,10 @@ h1.title1{
     border-radius: 10px;
     padding-top: 20px;
     padding-bottom: 20rem;
+}
+
+.img_pag{
+    width: 50px;
 }
 
 .uai_footer{
